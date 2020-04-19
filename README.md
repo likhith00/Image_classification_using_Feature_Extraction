@@ -49,16 +49,16 @@ To use InceptionV3 model,
  <b>Finetuned VGG16 model</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Finetuned resnet50 model</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Finetuned InceptionV3 model</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Finetuned Xceptionmodel</b>
 <div class="row">
   <div class="column">
-    <img src="/vgg16_images/vgg16_flowchart.png" height="300" width="210">
+    <img src="/vgg16_images/vgg16_flowchart.png" height="300" width="200">
   </div> 
   <div class="column">
-    <img src="/resnet50_images/resnet50_model.png" height="300" width="210">
+    <img src="/resnet50_images/resnet50_model.png" height="300" width="200">
   </div>
    <div class="column">
-    <img src="/inception_images/inceptionV3_model.png" height="300" width="210">
+    <img src="/inception_images/inceptionV3_model.png" height="300" width="200">
   </div>
      <div class="column">
-    <img src="/Xception_images/Xception_model.png" height="300" width="210">
+    <img src="/Xception_images/Xception_model.png" height="300" width="200">
   </div>
 </div>
 
