@@ -12,4 +12,4 @@ Fine tuning,
 
 <b>3.</b> Once this has been done, other late layers in the model can be set as 'trainable=True' so that in further SGD epochs their weights can be fine-tuned for the new task too.
 
-In this project , I've performed fine tuning using various deep learning architectures such as <b>VGG16</b>, <b>RESNET50</b>, <b>INCEPTION</b> and <b>EXCEPTION</b>. I've used the same hyperparameters and dataset for all architectures in order to compare the model accuracy.
+In this project , I've performed fine tuning using various deep learning architectures such as <b>VGG16</b>, <b>RESNET50</b>, <b>INCEPTIONV3</b> and <b>XCEPTION</b>. I've used the same hyperparameters and dataset for all architectures in order to compare the model accuracy.
