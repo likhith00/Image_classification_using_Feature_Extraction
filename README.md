@@ -14,8 +14,9 @@ Fine tuning,
 
 In this project , I've performed fine tuning using various deep learning architectures such as <b>VGG16</b>, <b>RESNET50</b>, <b>INCEPTIONV3</b> and <b>XCEPTION</b>. I've used the same hyperparameters and dataset for all architectures in order to compare the model accuracy.
 
-I've uploaded only VGG16 implementation because the other implemetation has exact blue print with exact hyper parameters except The model
-To use Resnet50 model,
+I've uploaded only [VGG16](https://neurohive.io/en/popular-networks/vgg16/) implementation because the other implemetation has exact blue print with exact hyper parameters except The model
+
+To use [Resnet50](https://medium.com/@14prakash/understanding-and-implementing-architectures-of-resnet-and-resnext-for-state-of-the-art-image-cf51669e1624) model,
 
 `from keras.applications.resnet50 import ResNet50`
 
@@ -23,9 +24,9 @@ To use Resnet50 model,
                   include_top=False,
                   input_shape=(224, 224, 3))` 
                   
-Resnet50 takes 224X224 as an input size hence declare `img_height` and `img_width` as <b>224</b>
+<b>Resnet50</b> takes 224X224 as an input size hence declare `img_height` and `img_width` as <b>224</b>
 
-To use InceptionV3 model,
+To use [InceptionV3](https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202) model,
 
 `from keras.applications.inception_v3 import InceptionV3` 
 
@@ -33,16 +34,16 @@ To use InceptionV3 model,
                   include_top=False,
                   input_shape=(299, 299, 3))`
                   
- InceptionV3 takes 299X299 as an input size hence declare `img_height` and `img_width` as <b>299</b>
+ <b>InceptionV3</b> takes 299X299 as an input size hence declare `img_height` and `img_width` as <b>299</b>
  
- To use Xception model,
+ To use [Xception](https://towardsdatascience.com/review-xception-with-depthwise-separable-convolution-better-than-inception-v3-image-dc967dd42568) model,
  
 `from keras.applications.xception import Xception` 
 
 `xception = Xception(include_top=False, weights='imagenet',
                   input_shape=(299, 299, 3))`
                   
- Xception takes 299X299 as an input size hence declare `img_height` and `img_width` as <b>299</b>
+ <b>Xception</b> takes 299X299 as an input size hence declare `img_height` and `img_width` as <b>299</b>
  
 
 <img src="/final_images/model_final.PNG">
