@@ -45,6 +45,8 @@ To use [InceptionV3](https://towardsdatascience.com/a-simple-guide-to-the-versio
                   
  <b>Xception</b> takes 299X299 as an input size hence declare `img_height` and `img_width` as <b>299</b>
  
+ After Fine Tuning,
+ 
 
 <img src="/final_images/model_final.PNG">
 
@@ -54,7 +56,7 @@ After training, The Accuracy plots of VGG16 are satisfying but inception,xceptio
 
 
 
-The Loss plots of resnet50 looks satisfying with a variation between validation accuracy and train accuracy. In other models sometimes the validation accuracy exceeds the train accuracy.This may cause over fitting and hence reduction in accuracy.
+The Loss plots of resnet50 looks satisfying with a variation between validation accuracy and train accuracy. In other models sometimes the validation accuracy exceeds the train accuracy.This may cause over fitting and reduction in accuracy.
 
 <img src="/final_images/loss_final.PNG">
 
